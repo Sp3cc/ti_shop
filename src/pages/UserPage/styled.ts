@@ -5,6 +5,11 @@ export const StyledUserPage = styled.main`
     display: flex;
     height: 86vh;
     width: 100vw;
+    /* background-image: url(https://c.pxhere.com/photos/7c/47/keyboard_laptop_back_light_apple_keys_business_computer_back-910187.jpg!d); */
+    background-image: url(https://www.papeldeparede.etc.br/fotos/wp-content/uploads/Teclado4-1024x640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     /* background-color: gray; */
 
     /* .rigthSide > .teste > svg {
@@ -18,9 +23,11 @@ export const StyledUserPage = styled.main`
 
     main {
       border: solid black 2px;
-      width: 48%;
+      width: 45%;
       min-height: 50%;
       margin: 0;
+      background-color: white;
+      border-radius: 10px;
     }
   }
   form {

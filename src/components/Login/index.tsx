@@ -42,7 +42,7 @@ const FormLogin = () => {
         navigate("/shop");
       }, 3000);
     } catch (error) {
-      notifyError("Email ou senha incorretos");
+      notifyError("Nome ou senha incorretos");
       console.log(error);
     }
   };
