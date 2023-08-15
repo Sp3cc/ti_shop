@@ -7,6 +7,10 @@ export const StyledUserPage = styled.main`
     width: 100vw;
     /* background-color: gray; */
 
+    /* .rigthSide > .teste > svg {
+      font-size: 1rem;
+    } */
+
     justify-content: space-between;
     align-items: center;
     justify-content: center;
@@ -44,8 +48,13 @@ export const StyledUserPage = styled.main`
     height: 80px;
     align-items: center;
 
-    svg {
+    .leftSide > svg {
       font-size: 4rem;
+    }
+
+    .rigthSide > div > svg {
+      font-size: 2rem;
+      cursor: pointer;
     }
 
     div {

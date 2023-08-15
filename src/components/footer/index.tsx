@@ -27,6 +27,7 @@ const Footer = () => {
           <BsWhatsapp />
         </li>
       </ul>
+      <span>Developed by: Rhyan Oliveira</span>
     </StyledFooter>
   );
 };

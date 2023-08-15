@@ -29,6 +29,7 @@ export const StyledUserPage = styled.main`
       flex-direction: column;
       width: 100%;
       border: 1px solid black;
+      border-radius: 8px;
       /* max-height: 30px; */
 
       h4 {

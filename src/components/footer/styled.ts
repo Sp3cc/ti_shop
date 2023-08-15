@@ -10,6 +10,13 @@ export const StyledFooter = styled.footer`
   justify-content: center;
   bottom: 0;
   left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 0.7rem;
+  }
 
   svg {
     font-size: 2rem;

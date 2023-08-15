@@ -3,6 +3,7 @@ import CreateProductPage from "../CreateProductsPage";
 import ListProducts from "../../components/listProducts/listProducts";
 import { StyledUserPage } from "./styled";
 import { GrCloudComputer } from "react-icons/gr";
+import { GrLogout } from "react-icons/gr";
 import Footer from "../../components/footer";
 
 const UserPage = () => {
@@ -15,15 +16,18 @@ const UserPage = () => {
   return (
     <StyledUserPage>
       <header>
-        <div>
+        <div className="leftSide">
           <GrCloudComputer />
           <h1>PAGINA DO USUÁRIO</h1>
         </div>
-        <div>
+        <div className="rigthSide">
           <p>Bem vindo {name}</p>
-          <button className="buttonLogout" onClick={LogoutFunction}>
+          <div onClick={LogoutFunction}>
+            <GrLogout />
+          </div>
+          {/* <button className="buttonLogout" onClick={LogoutFunction}>
             Logout
-          </button>
+          </button> */}
         </div>
       </header>
       <div className="divContainer">
